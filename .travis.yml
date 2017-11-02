@@ -44,7 +44,7 @@ script:
   - /usr/bin/gradle --version
   - /usr/bin/gradle clean check
   - /usr/bin/gradle build
-  - /usr/bin/gradle run
+  # - /usr/bin/gradle run
   # GatorGrader
   - ./gatorgrader.sh --check
   # Markdown
